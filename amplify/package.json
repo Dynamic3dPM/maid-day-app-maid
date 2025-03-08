@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@aws-amplify/backend": "",
+    "@aws-sdk/client-dynamodb": "^3.758.0",
+    "@aws-sdk/lib-dynamodb": "^3.758.0",
+    "stripe": "^17.7.0"
+  },
+  "devDependencies": {
+    "@types/stripe": "^8.0.416"
+  }
+}
