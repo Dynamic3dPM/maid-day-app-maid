@@ -12,7 +12,7 @@ import {
 } from 'react-native';
 import { signIn } from '@aws-amplify/auth';
 import { router } from 'expo-router'; // Import router only, remove Link
-import Colors, { getTheme } from '../../../backup/constants/Colors'; // Path adjusted for nesting
+import Colors, { getTheme } from '../../../constants/Colors'; // Path adjusted for nesting
 
 interface FormData {
     email: string;
@@ -105,7 +105,9 @@ export default function SignIn() {
             />
 
             {loading ? (
-                <ActivityIndicator size="large" color={theme.tint} />
+                <View>
+                    <ActivityIndicator size="large" color={theme.tint} />
+                </View>
             ) : (
                 <TouchableOpacity
                     onPress={handleSubmit}

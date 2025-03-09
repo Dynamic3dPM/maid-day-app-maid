@@ -14,7 +14,7 @@ import {
 } from 'react-native';
 import { useRouter, useSegments, usePathname } from 'expo-router';
 import { getCurrentUser } from '@aws-amplify/auth';
-import { getTheme } from '../../backup/constants/Colors';
+import { getTheme } from '../../constants/Colors';
 
 interface SurveyData {
     reliableTransportation: string;

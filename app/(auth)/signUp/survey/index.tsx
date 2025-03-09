@@ -4,7 +4,7 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, Appearance } from 'react-native';
 import { useRouter } from 'expo-router';
-import Colors, { getTheme } from '../../../../backup/constants/Colors';
+import Colors, { getTheme } from '../../../../constants/Colors';
 
 interface SurveyData {
     reliableTransportation: string;

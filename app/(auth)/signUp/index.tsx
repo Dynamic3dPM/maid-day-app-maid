@@ -16,7 +16,7 @@ import {
 } from 'react-native';
 import { signUp, confirmSignUp, resendSignUpCode } from '@aws-amplify/auth';
 import { useRouter, useLocalSearchParams } from 'expo-router';
-import Colors, { getTheme } from '../../../backup/constants/Colors';
+import Colors, { getTheme } from '../../../constants/Colors';
 
 interface FormData {
     email: string;

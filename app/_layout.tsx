@@ -7,7 +7,7 @@ import { useEffect, useState } from 'react';
 import { Amplify } from 'aws-amplify';
 import { getCurrentUser } from '@aws-amplify/auth';
 import outputs from '../amplify_outputs.json';
-import { useColorScheme } from '@/backup/components/useColorScheme';
+import { useColorScheme } from '@/components/useColorScheme';
 
 // Define possible segment types
 type Segment = '(auth)' | '(tabs)' | 'modal' | '+not-found';

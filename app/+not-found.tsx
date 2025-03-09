@@ -2,8 +2,8 @@ import { useFonts } from 'expo-font';
 import { Stack, useRouter } from 'expo-router';
 import React from 'react';
 import { StyleSheet, Image, TouchableOpacity, Appearance } from 'react-native';
-import { Text, View } from '@/backup/components/Themed';
-import Colors, { getTheme } from '../backup/constants/Colors'; // Adjust path based on nesting
+import { Text, View } from '@/components/Themed';
+import Colors, { getTheme } from '../constants/Colors'; // Adjust path based on nesting
 
 export default function NotFoundScreen() {
   const [fontsLoaded] = useFonts({

@@ -1,8 +1,8 @@
 import { StyleSheet, Button, ActivityIndicator, Text } from 'react-native';
 import { signOut } from '@aws-amplify/auth';
 import { useRouter } from 'expo-router';
-import EditScreenInfo from '@/backup/components/EditScreenInfo';
-import { View } from '@/backup/components/Themed';
+import EditScreenInfo from '@/components/EditScreenInfo';
+import { View } from '@/components/Themed';
 import { useState } from 'react';
 
 export default function TabTwoScreen() {
